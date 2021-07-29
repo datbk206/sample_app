@@ -1,0 +1,10 @@
+<% provide :title, t("home.title") %>
+<div class="center jumbotron">
+	<%= raw t "home.header" %>
+	<h2>
+		<%= t "home.contents.part1" %>
+		<%= link_to t("home.contents.link"), Settings.link.rails_home_link %>.
+		<%= t "home.contents.part2" %>
+	</h2>
+	<%= link_to t("home.contents.signup"), "#", class: "btn btn-lg btn-primary" %>
+</div>
