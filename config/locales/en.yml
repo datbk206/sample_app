@@ -7,7 +7,7 @@ en:
     title: "Ruby on Rails Turtorial Sample App"
   home:
     title: "Home"
-    header: '<h1>Welcome to the Sample App</h1>'
+    header: "Welcome to the Sample App"
     contents:
       part1: "This is the home page for the"
       part2: "sample application."  
@@ -15,23 +15,24 @@ en:
       signup: "Sign up now"
   help:
     title: "Help"
-    header: '<h1>Help</h1>'
     contents:
       part1: "Get help on the Ruby on Rails Turtorial at the"
       part2: "To get help on this sample app, see the"
       link1: "Rails Turtorial help page"
-      link2: '<em>Ruby on Rails Turtorial</em>book.'
+      link2_1: ""
+      link2_2: "Ruby on Rails Turtorial"
+      link2_3: "book."
   contact:
     title: "Contact"
-    header: "<h1>Contact</h1>"
     contents:
       part: "Contact the Ruby on Rails Tutorial about the sample app at the"
       link: "Contact page"
   about:
     title: "About"
-    header: "<h1>About</h1>"
     contents:
       part: "About the Ruby on Rails Tutorial about the sample app at the"
       link: "About page"
   login:
     title: "Log in"
+  users:
+    title: "Sign up"

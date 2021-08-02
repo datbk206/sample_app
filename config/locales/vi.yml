@@ -7,7 +7,7 @@ vi:
     title: "Ứng dụng mẫu Giới thiệu về Ruby on Rails"
   home:
     title: "Trang chủ"
-    header: '<h1>Chào mừng đến với ứng dụng mẫu</h1>'
+    header: "Chào mừng đến với ứng dụng mẫu"
     contents:
       part1: "Đây là trang chủ của ứng dụng mẫu"
       part2: "."  
@@ -15,23 +15,24 @@ vi:
       signup: "Đăng ký ngay"
   help:
     title: "Hỗ trợ"
-    header: '<h1>Hỗ trợ</h1>'
     contents:
       part1: "Nhận sự trợ giúp về Giới thiệu về Ruby on Rails tại"
       part2: "Để nhận sự trợ giúp về ứng dụng mẫu này, tham khảo"
       link1: "Trang hỗ trợ Giới thiệu về Rails"
-      link2: 'cuốn sách <em>Giới thiệu về Ruby on Rails</em>.'
+      link2_1: "Cuốn sách"
+      link2_2: "Giới thiệu về Ruby on Rails"
+      link2_3: "."
   contact:
     title: "Liên hệ"
-    header: "<h1>Liên hệ</h1>"
     contents:
       part: "Liên hệ với Giới thiệu về Ruby on Rails về ứng dụng mẫu tại"
       link: "Trang liên hệ"
   about:
     title: "Thông tin"
-    header: "<h1>Thông tin</h1>"
     contents:
       part: "Thông tin về Giới thiệu về Ruby on Rails về ứng dụng mẫu tại"
       link: "Trang thông tin"
   login:
     title: "Đăng nhập"
+  users:
+    title: "Đăng ký"
