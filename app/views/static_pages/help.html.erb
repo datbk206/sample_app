@@ -1,8 +1,12 @@
 <% provide :title, t("help.title") %>
-<%= raw t "help.header" %>
+<h1><%= t "help.title" %></h1>
 <p>
 	<%= t "help.contents.part1" %>
 	<%= link_to t("help.contents.link1"), Settings.link.rails_help_link %>.
 	<%= t "help.contents.part2" %>
-	<%= link_to raw(t "help.contents.link2"), Settings.link.rails_book_link %>
+	<%= link_to Settings.link.rails_book_link do %>
+		<%= t "help.contents.link2_1" %>
+		<em><%= t "help.contents.link2_2" %></em>
+		<%= t "help.contents.link2_3" %>
+	<% end %>
 </p>
