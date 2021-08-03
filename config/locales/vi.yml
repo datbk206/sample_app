@@ -35,4 +35,18 @@ vi:
   login:
     title: "Đăng nhập"
   users:
-    title: "Đăng ký"
+    signup:
+      title: "Đăng ký"
+      success: "Đăng ký thành công"
+      fail: "Đăng ký thất bại"
+      name: "Tên người dùng"
+      email: "Địa chỉ email"
+      password: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản của tôi"
+    show:
+      not_found: "Không tìm thấy"
+  shared:
+    error_message:
+      part1: "Biểu mẫu có"
+      part2: "Lỗi"

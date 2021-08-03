@@ -35,4 +35,18 @@ en:
   login:
     title: "Log in"
   users:
-    title: "Sign up"
+    signup:
+      title: "Sign up"
+      success: "Sign up success"
+      fail: "Sign up fail"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirm: "Confirm password"
+      submit: "Create my account"
+    show:
+      not_found: "Not found"
+  shared:
+    error_message:
+      part1: "Form has"
+      part2: "Error"
