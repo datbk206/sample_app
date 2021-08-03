@@ -50,3 +50,15 @@ en:
     error_message:
       part1: "Form has"
       part2: "Error"
+  session:
+    login:
+      title: "Log in"
+      invalid: "Your email or password are incorrect"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      email: "Email"
+      password: "Password"
+      new: "New user? "
+    logout: "Log out"
