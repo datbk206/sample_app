@@ -50,3 +50,15 @@ vi:
     error_message:
       part1: "Biểu mẫu có"
       part2: "Lỗi"
+  session:
+    login:
+      title: "Đăng nhập"
+      invalid: "Email hoặc mật khẩu bạn nhập không chính xác"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      email: "Email"
+      password: "Mật khẩu"
+      new: "Người dùng mới? "
+    logout: "Đăng xuất"
