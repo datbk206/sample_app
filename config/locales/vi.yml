@@ -61,4 +61,5 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       new: "Người dùng mới? "
+      remember: "Ghi nhớ trên máy tính này"
     logout: "Đăng xuất"
