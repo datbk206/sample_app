@@ -61,4 +61,5 @@ en:
       email: "Email"
       password: "Password"
       new: "New user? "
+      remember: "Remember on this computer"
     logout: "Log out"
