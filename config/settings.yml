@@ -5,6 +5,7 @@ link:
   rails_help_link: "http://www.railstutorial.org/help"
   rails_book_link: "http://www.railstutorial.org/book"
   rails_author_link: "https://www.michaelhartl.com/"
+  gravatar: "http://gravatar.com/emails"
 
 name:
   max_length: 50
@@ -13,3 +14,6 @@ email:
   valid_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i
 password:
   min_length: 6
+gravatar:
+  size: 80
+  user_size: 50

@@ -46,6 +46,20 @@ vi:
       submit: "Tạo tài khoản của tôi"
     show:
       not_found: "Không tìm thấy"
+    update:
+      success: "Cập nhật thành công"
+      fail: "Cập nhật thất bại"
+    delete:
+      success: "Xóa thành công"
+      fail: "Xóa thất bại"
+      submit: "Xóa tài khoản"
+      confirm: "Bạn có chắc chắn không?"
+    edit:
+      title: "Chỉnh sửa tài khoản"
+      header: "Cập nhật hồ sơ của bạn"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
+    index: "Danh sách người dùng"
   shared:
     error_message:
       part1: "Biểu mẫu có"
@@ -62,4 +76,5 @@ vi:
       password: "Mật khẩu"
       new: "Người dùng mới? "
       remember: "Ghi nhớ trên máy tính này"
+      require: "Trước hết bạn phải đăng nhập."
     logout: "Đăng xuất"
