@@ -46,6 +46,20 @@ en:
       submit: "Create my account"
     show:
       not_found: "Not found"
+    update:
+      success: "Update success"
+      fail: "Update fail"
+    delete:
+      success: "Delete success"
+      fail: "Delete fail"
+      submit: "Delete account"
+      confirm: "You sure?"
+    edit:
+      title: "Edit user"
+      header: "Update your profile"
+      submit: "Save changes"
+      change: "change"
+    index: "List users"
   shared:
     error_message:
       part1: "Form has"
@@ -62,4 +76,6 @@ en:
       password: "Password"
       new: "New user? "
       remember: "Remember on this computer"
+      require: "Please log in."
     logout: "Log out"
+    
