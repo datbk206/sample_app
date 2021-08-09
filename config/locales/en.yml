@@ -60,6 +60,15 @@ en:
       submit: "Save changes"
       change: "change"
     index: "List users"
+    activate:
+      require: "Account not activated. Check your email for the activation link."
+      message: "Please check your email to activate your account."
+      activated: "Account activated!"
+      invalid: "Invalid activation link"
+      subject: "Account activation"
+      greeting: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      link: "Activate"
   shared:
     error_message:
       part1: "Form has"

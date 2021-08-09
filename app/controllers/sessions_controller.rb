@@ -18,8 +18,13 @@ class SessionsController < ApplicationController
 
   private
   def login user
-    log_in user
-    params[:session][:remember_me] == "1" ? remember(user) : forget(user)
-    redirect_back_or user
+    if user.activated
+      log_in user
+      params[:session][:remember_me] == "1" ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      flash[:warning] = t "users.activate.require"
+      redirect_to root_url
+    end
   end
 end
