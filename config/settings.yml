@@ -17,3 +17,5 @@ password:
 gravatar:
   size: 80
   user_size: 50
+reset_password:
+  expired_time: 2
