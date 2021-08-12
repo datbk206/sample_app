@@ -1,10 +1,27 @@
 <% provide :title, t("home.title") %>
-<div class="center jumbotron">
-	<h1><%= t "home.header" %></h1>
-	<h2>
-		<%= t "home.contents.part1" %>
-		<%= link_to t("home.contents.link"), Settings.link.rails_home_link %>.
-		<%= t "home.contents.part2" %>
-	</h2>
-	<%= link_to t("home.contents.signup"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "home.feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t "home.header" %></h1>
+    <h2>
+      <%= t "home.contents.part1" %>
+      <%= link_to t("home.contents.link"), Settings.link.rails_home_link %>.
+      <%= t "home.contents.part2" %>
+    </h2>
+    <%= link_to t("home.contents.signup"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+<% end %>

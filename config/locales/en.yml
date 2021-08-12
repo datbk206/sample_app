@@ -13,6 +13,7 @@ en:
       part2: "sample application."  
       link: "Ruby on Rails Turtorial"
       signup: "Sign up now"
+    feed: "Micropost Feed"
   help:
     title: "Help"
     contents:
@@ -91,6 +92,8 @@ en:
     error_message:
       part1: "Form has"
       part2: "Error"
+    view_profile: "view my profile"
+    micropost: "Micropost"
   session:
     login:
       title: "Log in"
@@ -105,4 +108,19 @@ en:
       remember: "Remember on this computer"
       require: "Please log in."
     logout: "Log out"
-    
+  micropost:
+    create:
+      success: "Micropost created!"
+      fail: "Micropost create fail!"
+      placeholder: "Compose new micropost..."
+      submit: "Post"
+    destroy:
+      success: "Micropost deleted"
+      fail: "Deleted fail"
+      link: "delete"
+      confirm: "You sure?"
+    invalid: "Micropost invalid"
+    post: "Posted "
+    large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
+    invalid_format: "must be a valid image format"
+    require_size: "should be less than 5MB"

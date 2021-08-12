@@ -12,10 +12,12 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-
-    flash[:error] = t "users.show.not_found"
-    redirect_to root_path
+    if @user
+      @microposts = @user.microposts.page params[:page]
+    else
+      flash[:error] = t "users.show.not_found"
+      redirect_to root_path
+    end
   end
 
   def create
@@ -54,14 +56,6 @@ class UsersController < ApplicationController
   private
   def user_params
     params.require(:user).permit User::PERMITTED
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "session.login.require"
-    redirect_to login_url
   end
 
   def correct_user

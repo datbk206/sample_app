@@ -13,6 +13,7 @@ vi:
       part2: "."  
       link: "Giới thiệu về Ruby on Rails"
       signup: "Đăng ký ngay"
+    feed: "Micropost Feed"
   help:
     title: "Hỗ trợ"
     contents:
@@ -91,6 +92,8 @@ vi:
     error_message:
       part1: "Biểu mẫu có"
       part2: "Lỗi"
+    view_profile: "Xem hồ sơ của tôi"
+    micropost: "Micropost"
   session:
     login:
       title: "Đăng nhập"
@@ -105,3 +108,19 @@ vi:
       remember: "Ghi nhớ trên máy tính này"
       require: "Trước hết bạn phải đăng nhập."
     logout: "Đăng xuất"
+  micropost:
+    create:
+      success: "Tạo thành công!"
+      fail: "Tạo thất bại!"
+      placeholder: "Soạn micropost mới..."
+      submit: "Đăng"
+    destroy:
+      success: "Xóa thành công"
+      fail: "Xóa thất bại"
+      link: "Xóa"
+      confirm: "Bạn có chắc muốn xóa?"
+    invalid: "Không hợp lệ"
+    post: "Đã đăng "
+    large_img_error: "Kích cỡ file tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
+    invalid_format: "Phải đúng định dạng hợp lệ"
+    require_size: "Phải nhỏ hơn 5MB"
