@@ -88,6 +88,8 @@ vi:
       fail: "Thiết lập lại mật khẩu thất bại"
       invalid: "Người dùng không hợp lệ"
       expired: "Thiết lập lại mật khẩu đã hết hạn"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
   shared:
     error_message:
       part1: "Biểu mẫu có"
@@ -124,3 +126,5 @@ vi:
     large_img_error: "Kích cỡ file tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
     invalid_format: "Phải đúng định dạng hợp lệ"
     require_size: "Phải nhỏ hơn 5MB"
+  follower: "Theo dõi"
+  following: "Đang theo dõi"
