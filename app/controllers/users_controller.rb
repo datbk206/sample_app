@@ -61,8 +61,4 @@ class UsersController < ApplicationController
   def correct_user
     redirect_to root_url unless current_user? @user
   end
-
-  def load_user
-    @user = User.find_by id: params[:id]
-  end
 end

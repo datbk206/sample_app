@@ -88,6 +88,8 @@ en:
       fail: "Password reset fail"
       invalid: "Invalid user"
       expired: "Password reset has expired."
+    follow: "Follow"
+    unfollow: "Unfollow"
   shared:
     error_message:
       part1: "Form has"
@@ -124,3 +126,5 @@ en:
     large_img_error: "Maximum file size is 5MB. Please choose a smaller file."
     invalid_format: "must be a valid image format"
     require_size: "should be less than 5MB"
+  follower: "Follower"
+  following: "Following"
